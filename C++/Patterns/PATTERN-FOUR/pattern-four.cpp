@@ -11,9 +11,8 @@
 int main() {
     // Displaying the pattern 
     for ( int rows=1; rows<=5; rows++ ) {
-        int columns = rows;
-        while ( columns <= rows ) {
-            std::cout << columns;
+        for ( int columns=1; columns<=rows; columns++ ) {
+            std::cout << rows;
         }
         std::cout << std::endl;
     }
